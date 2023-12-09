@@ -1,8 +1,12 @@
-function isSameType(value1, value2) {
-  //your js code here
+function datatypes(a,b){
+    if ((typeof a) == (typeof b)){
+        return true;
+    }
+    else{
+        return false;
+    }
 }
-
 // do not change the code below.
-let value1 = prompt("Enter Start of the Range.");
-let value2 = prompt("Enter End Of the Range.");
-alert(isSameType(value1, value2));
+let a = prompt("Enter Start of the Range.");
+let b = prompt("Enter End Of the Range.");
+alert(datatypes(a,b));
