@@ -1,6 +1,6 @@
 function datatypes(a,b){
 	if(a==NaN || b==NaN){
-		return false;
+		return '\'false\'';
 	}
     else if ((typeof a) == (typeof b)){
         return true;
@@ -10,6 +10,6 @@ function datatypes(a,b){
     }
 }
 // do not change the code below.
-let a = prompt("Enter Start of the Range.");
-let b = prompt("Enter End Of the Range.");
+// let a = prompt("Enter Start of the Range.");
+// let b = prompt("Enter End Of the Range.");
 alert(datatypes(a,b));
