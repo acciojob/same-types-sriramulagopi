@@ -1,6 +1,6 @@
 function datatypes(a,b){
-	if(a==NaN || b==NaN){
-		return '\'false\'';
+	if(a==undefined || b==undefined){
+		return true;
 	}
     else if ((typeof a) == (typeof b)){
         return true;
