@@ -1,5 +1,5 @@
 function datatypes(a,b){
-	if((a===NaN || b===NaN)){
+	if((a===NaN || b===NaN) || (a===NaN && b===NaN)){
 		return true;
 	}
     else if ((typeof a) === (typeof b)){
